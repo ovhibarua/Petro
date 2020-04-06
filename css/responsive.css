@@ -1,0 +1,29 @@
+/*
+--------------------
+Meium layout:1200px;
+--------------------
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+
+/*
+--------------------
+Tablet layout:768px;
+--------------------
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	
+}
+
+
+/*
+-------------------
+Moble layout:320px;
+-------------------
+*/
+@media only screen and (min-width: 767px) {
+	
+}

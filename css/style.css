@@ -1,0 +1,1156 @@
+/*The content of Petro website---------------------------------------------------------------------------*/
+/*
+-------------
+Global fixing
+-------------
+*/
+/*
+-----------
+Header area
+-----------
+*/
+/*
+---------------------
+Customer Service area
+---------------------
+*/
+/*
+---------------------
+Product Features area
+---------------------
+*/
+/*
+-----------------------
+Product Comparison area
+-----------------------
+*/
+/*
+---------------------
+Business Partner area
+---------------------
+*/
+/*
+-----------------
+Pricing Plan area
+-----------------
+*/
+/*
+----------------
+Testimunial area
+----------------
+*/
+/*
+------------------
+Trail Section area
+------------------
+*/
+/*
+---------------
+Newsletter area
+---------------
+*/
+/*
+-----------
+Footer area
+-----------
+*/
+
+/*Global fixing------------------------------------------------------------------------------------------*/
+*{
+	font-family: 'roboto',sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0 auto;
+}
+.button-clr{
+	color: #EDCD37;
+}
+p{
+	padding: 0;
+	margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 auto;
+	padding: 0;
+}
+.margin-t10{
+	margin-top: 10px;
+}
+.margin-t20{
+	margin-top: 20px;
+}
+.margin-t40{
+	margin-top: 40px;
+}
+.margin-t60{
+	margin-top: 60px;
+}
+.margin-t70{
+	margin-top: 70px;
+}
+.margin-t80{
+	margin-top: 80px;
+}
+
+/*Header area--------------------------------------------------------------------------------------------*/
+.header-area{
+	height: 1012px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.navigation > ul{
+    list-style-type: none;
+    float: right;	
+}
+.navigation > ul > li{
+    display: inline-block;
+    padding: 12px 24px;	
+}
+.navigation > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;    	
+}
+.navigation > ul > li > a:hover{
+    border-bottom: solid 2px #EDCD37;	
+}
+.header-btn{
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 8px 20px;
+    font-size: 12px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+}
+.header-btn:hover{
+    background-color: #EDCD37;
+    border-color: #EDCD37;
+    color: black;
+}
+.adversite{
+	position: relative;
+	display: inline-block;		
+}
+.adversite-content{
+    position: absolute;
+    display: none;
+    width: 135px;
+    right: -15px;
+    top: 38px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 10px;
+}
+.adversite:hover > .adversite-content{
+	display: block;
+}
+.adversite-content> a{
+    text-decoration: none;
+    font-size: 15px;    
+    display: block;
+    color: #545b62;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 0px;
+
+}
+.adversite-content a:hover{
+    background-color: #EDCD37;
+    color: #000000;
+}
+.top-redius{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bottom-redius{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;	
+}
+.supports{
+	position: relative;
+	display: inline-block;
+}
+.supports-content{
+    position: absolute;
+    display: none;
+    width: 135px;
+    right: -15px;
+    top: 38px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 10px;
+}
+.supports:hover > .supports-content{
+	display: block;
+}
+.supports-content > a {
+    text-decoration: none;
+    display: block;
+    color: #545b62;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+.supports-content a:hover{
+    background-color: #EDCD37;
+    color: #000000;
+}
+.trails{
+    width: 290px;
+    padding: 8px;
+    background-color: #FF5865;
+    border-radius: 50px;
+    color: #dae0e5;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    margin-top: 22px;
+    font-size: 44px;
+}
+.sub-title{
+    color: #e9ecef;
+    line-height: 2;
+    font-weight: 300;
+    margin-top: 22px;
+}
+.header-btn2{
+    float: right;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 8px 24px;
+    font-size: 12px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    margin-top: 22px;        
+}
+.header-btn2:hover{
+    background-color: #EDCD37;
+    border-color: #EDCD37;
+    color: black;   
+}
+.video-link{
+    float: left;
+    margin-top: 28px;
+}
+.header-intro-img img{
+
+}
+.header-intro-img{
+    margin-top: 41px;	
+}
+/*Customer Service area---------------------------------------------------------------------------------*/
+
+.customer-service-area{
+	height: 621px;
+	background-color: #FFFFFF;
+}
+.service-title{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.service-content{
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 10px;
+}
+.service-sub-content{
+    color: #6c757d;
+    line-height: 2;
+    margin-top: 22px;
+}
+.service{
+    margin-top: 95px;
+}
+.fast-time{
+    width: 90px;
+    padding: 14px;
+    transition-duration: 0.5s;
+    cursor: pointer;	
+}
+.fast-time:hover{
+    background-color: #FFECEF;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px -2px #212529;
+}
+.crop-photo{
+    width: 90px;
+    padding: 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.crop-photo:hover{
+    background-color: #EAF9FF;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px -2px #212529;	
+}
+.coding{
+    width: 90px;
+    padding: 27px 0px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.coding:hover{
+    background-color: #FFF6D3;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px -2px #212529;		
+}
+.vector{
+    width: 90px;
+    padding: 27px 0px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.vector:hover{
+    background-color: #E4FFEE;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px -2px #212529;	
+}
+.export{
+    width: 90px;
+    padding: 28px 0px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.export:hover{
+    background-color: #F4F4FF;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px -2px #212529;	
+}
+/*Product Features area---------------------------------------------------------------------------------*/
+
+.product-features-area{
+	height: 1172px;
+}
+.product-title{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.product-content{
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 10px;	
+}
+.horizontal-line{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    bottom: 30px;
+}
+.product-list > ul{
+	list-style-type: none;
+	
+}
+.product-list > ul > li{
+    display: inline-block;
+    padding: 37px;
+    margin-top: 22px;
+}
+.product-list > ul > li > a{
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 25px;
+}
+.product-list > ul > li > a:hover{
+    color: red;
+    border-bottom: solid 2px;
+    z-index: 1;
+}
+.dashboard img{
+    width: 1110px;
+}
+.dashboard{
+    margin-top: 35px;
+    box-shadow: 0 8px 14px -12px #6c757d;	
+}
+
+/*Product Comparison area-------------------------------------------------------------------------------*/
+.product-comparison-area{
+	height: 727px;
+}
+.product-comparison-title{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.product-comparison-content{
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 10px;	
+}
+.product-comparison{
+    padding: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    height: 145px;
+    margin-top: 25%;
+
+}
+.product-comparison:hover{
+    background-color: #ffd6dd;
+    border-radius: 20px;	
+}
+.product-comparison2{
+    padding: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    height: 145px;
+    margin-top: 25%;	
+}
+.product-comparison2:hover{
+    background-color: #a5ddf7;
+    border-radius: 20px;	
+}
+.product-comparison3{
+    padding: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    height: 145px;
+    margin-top: 25%;	
+}
+.product-comparison3:hover{
+    background-color: #fbe591;
+    border-radius: 20px;	
+}
+.product-comparison4{
+    padding: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    height: 145px;
+    margin-top: 25%;	
+}
+.product-comparison4:hover{
+    background-color: #9efdc1;
+    border-radius: 20px;	
+}
+.product-comparison5{
+    padding: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    height: 145px;
+    margin-top: 25%;	
+}
+.product-comparison5:hover{
+    background-color: #c3c3fd;
+    border-radius: 20px;	
+}
+.product-comparison6{
+    padding: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    height: 145px;
+    margin-top: 25%;	
+}
+.product-comparison6:hover{
+    background-color: #ffd7ce;
+    border-radius: 20px;	
+}
+.coundown-image{
+    float: left;
+    padding: 6px 20px 43px 6px;
+}
+.compare-content{
+    font-weight: 600;
+    margin-top: 6px;
+}
+.compare-sub-content{
+    line-height: 1.7;
+    font-weight: 400;
+    margin-top: 21px;
+    color: #6c757d;	
+}
+
+/*Business Partner area---------------------------------------------------------------------------------*/
+.business-partner-area{
+	height: 752px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.side-image{
+    margin-top: 30%;
+}
+.business-partner-intro{
+    margin-top: 42%;
+    margin-left: 12%;
+}
+.business-partner-content{
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+}
+.business-partner-sub-content{
+    color: #FFE2E2;
+    line-height: 2;
+    margin-top: 25px;
+}
+.business-partner-btn{
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    font-size: 12px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+}
+.business-partner-btn:hover{
+    background-color: #EDCD37;
+    border-color: #EDCD37;
+    color: black; 	
+}
+
+/*Pricing Plan area-------------------------------------------------------------------------------------*/
+.pricing-plan-area{
+	height: 1057px;
+}
+.pricing-title{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.pricing-content{
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 10px;	
+}
+.pricing-menu{
+
+}
+.pricing-menu>ul{
+	list-style-type: none;
+}
+.pricing-menu>ul>li{
+    display: inline-block;
+    padding: 37px;
+    margin-top: 22px;
+}
+.pricing-menu>ul>li>a{
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 25px;
+}
+.pricing-menu>ul>li>a:hover{
+    color: red;
+    border-bottom: solid 2px;
+    z-index: 1;
+}
+.details{
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 3.5;
+}
+.details2{
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 3.5;
+}
+.details3{
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 3.5;
+}
+.pricing-list{
+    height: 591px;
+    padding: 20px;
+    border-radius: 40px;
+    transition-duration: 0.5s;
+    color: #212529;
+    border: solid 2px white;
+}
+.pricing-list:hover{
+    border: solid 2px #FF4265;
+    box-shadow: 0 3px 13px -5px black;
+    background-color: #FF4265;
+    color: #e9ecef;
+}
+.pricing-btn{
+    border: solid 2px #f8f9fa;
+    padding: 8px 45px;
+    color: #e9ecef;
+    font-weight: 500;
+    border-radius: 40px;
+    background-color: #ff4265;  
+}
+.pricing-btn:hover{
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #ff4265;
+}
+.pricing-btn2{
+    border: solid 2px #f8f9fa;
+    padding: 8px 60px;
+    color: #e9ecef;
+    font-weight: 500;
+    border-radius: 40px;
+    background-color: #ff4265;  
+}
+.pricing-btn2:hover{
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #ff4265;
+}
+
+/*Testimunial area--------------------------------------------------------------------------------------*/
+.comment-title{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.comment-sub-title{
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 10px;	
+}
+.comment-box{
+    background-color: #F9FAFB;
+    width: 520px;
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+.c-content{
+    font-weight: 800;
+}
+.c-sub-content{
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 22px;
+}
+.commentry-image{
+    float: left;
+    padding: 10px 15px 5px 0px;
+}
+.star{
+    float: right;
+    padding-top: 35px;	
+}
+
+/*Trail Section area------------------------------------------------------------------------------------*/
+.trail-box{
+    margin-bottom: 150px;
+}
+.trail-title{
+    font-weight: 500;
+    font-size: 44px;
+    margin-top: 22px;
+}
+.trail-sub-title{
+    color: #6c757d;
+    line-height: 2;
+    margin-top: 22px;
+}
+.trail-btn1{
+    margin-top: 22px;
+    background: none;
+    border: none;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.trail-btn1:hover{
+    background-color: #EDCD37;
+    border-radius: 5px;	
+}
+
+/*Newsletter area---------------------------------------------------------------------------------------*/
+.newsletter-area{
+	height: 180px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.new-content{
+    color: white;
+    font-weight: 500;
+}
+.new-sub-content{
+    color: #d4cccc;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.newsletter-from{
+
+}
+.email{
+    background: none;
+    border: none;
+    border-bottom: solid 1px #e9ecef99;
+    width: 350px;
+    padding: 12px;
+}
+.submit{
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 38px;
+    font-size: 12px;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+}
+.submit:hover{
+    background-color: #EDCD37;
+    border-color: #EDCD37;
+    color: black;
+}
+input[placeholder]{
+	color: white;
+}
+
+/*Footer area-------------------------------------------------------------------------------------------*/
+.footer-area{
+	height: 510px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+.footer-logo{
+    margin-top: 50%;
+}
+.footer-logo>a{
+    text-decoration: none;
+    color: #212529;
+    position: relative;
+    top: 18px;
+}
+.about-us{
+
+}
+.about-us>h6{
+    font-weight: 700;
+    margin-top: 70%;
+}
+.about-us>ul{
+
+}
+.about-us>ul>li{
+    display: block;
+    padding-top: 22px;
+}
+.about-us>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.about-us>ul>li>a:hover{
+    color: #adb5bd;
+}
+/*
+--------------------
+Tablet layout:768px;
+--------------------
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* header area */
+    .adversite-content {
+        right: -22px;
+    }
+    .supports-content {
+        right: -23px;
+    }
+    .navigation>ul>li {
+        padding: 12px 14px;
+    }
+    .header-intro-img img {
+        margin-top: 59px;
+        width: 100%;
+    }
+    .margin-t80 {
+        margin-top: 100px;
+    }
+    /* product features */
+    .horizontal-line {
+        display: none;
+    }
+    .product-list>ul>li {
+        display: inline-block;
+        padding: 5px;
+        margin-top: 22px;
+    }
+    .product-list>ul>li>a {
+        padding: 5px;
+    }
+    .product-features-area {
+        height: 800px;
+    }
+    .dashboard img {
+        width: 101%;
+    }
+    /* product comparition */
+    .product-comparison {
+        margin-top: 12%;
+    }
+    .product-comparison2 {
+        margin-top: 12%;
+    }
+    .product-comparison3 {
+        margin-top: 12%;
+    }
+    .product-comparison4 {
+        margin-top: 12%;
+    }
+    .product-comparison5 {
+        margin-top: 12%;
+    }
+    .product-comparison6 {
+        margin-top: 12%;
+    }
+    .compare-sub-content {
+        font-size: 14px;
+    }
+    /* business partner area */
+    .side-image {
+        display: none;
+    }
+    .business-partner-intro {
+        margin-top: 30%;
+    }
+    /* pricing plan */
+    .pricing-menu>ul>li {
+        display: inline-block;
+        padding: 22px;
+        margin-top: 22px;
+    }
+    .details {
+        line-height: 2.1;
+    }
+    .details2 {
+        margin-top: 9px;
+        line-height: 2.1;
+    }
+    .details3 {
+        margin-top: 9px;
+        line-height: 2.1;
+    }
+    .pricing-title {
+        margin-top: 95px;
+    }
+    .pricing-btn {
+        padding: 15px 15px;
+        margin-top: 22px;
+    }
+    .pricing-btn2 {
+        padding: 16px 33px;
+        margin-top: 23px;
+    }
+    /* testimunial */
+    .comment-box {
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+    /* newsletter */
+    .new-sub-content {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .submit {
+        padding: 9px 30px;
+        margin-left: 0px;
+    }
+    .email {
+        width: 219px;
+    }
+    /* footer */
+    .about-us>h6 {
+        width: 115px;
+    }
+    .about-us>ul>li {
+        padding-top: 30px;
+    }
+
+
+}
+/*
+--------------------
+Smart mobile layout:768px;
+--------------------
+*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* header */
+    .navigation{
+        display: none;
+    }
+    .header-intro-img img {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .trails {
+        margin-top: 132px;
+    }
+    /* customer service */
+    .service {
+        margin-top: 80px;
+    }
+    /* product features */
+    .product-title {
+        margin-top: 485px;
+    }
+    .product-list>ul>li {
+        padding: 19px;
+        margin-top: 95px;
+    }
+    .dashboard img {
+        display: none;
+    }
+    .product-features-area {
+        height: 990px;
+    }
+    /* product comparison */
+    .product-comparison {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+    .product-comparison2 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+    .product-comparison3 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+    .product-comparison4 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+    .product-comparison5 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+    .product-comparison6 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+    .coundown-image {
+        padding: 5px 210px;
+    }
+    /* business partner area */
+    .side-image{
+        display: none;
+    }
+    .business-partner-area {
+        margin-top: 1025px;
+    }
+    .business-partner-intro {
+        margin-top: 42%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    /* pricing plan */
+    .pricing-menu>ul>li {
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .pricing-menu>ul>li>a {
+        padding: 17px;
+    }
+    .horizontal-line {
+        display: none;
+    }
+    .pricing-list {
+        width: 320px;
+    }
+    /* testmunial area */
+    .testimunial-area{
+        display: none;
+    }
+    /* Trail Section area */
+    .trail-section-area{
+        margin-top: 1180px;
+    }
+    /* newsletter */
+    .newsletter-box{
+        margin-top: 8px;
+        text-align: center;
+    }
+    .newsletter-from {
+        margin-top: 20px;
+    }
+    /* footer logo */
+    .footer-logo {
+        margin-top: 15%;
+        text-align: center;
+    }
+    .footer-logo>a {
+        top: 5px;
+    }
+    
+
+}
+/*
+-------------------
+Normal Moble layout:320px;
+-------------------
+*/
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    /* header */
+    .navigation {
+        display: none;
+    }
+
+    .header-intro-img img {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .trails {
+        margin-top: 132px;
+    }
+
+    /* customer service */
+    .service {
+        margin-top: 80px;
+    }
+
+    /* product features */
+    .product-title {
+        margin-top: 485px;
+    }
+
+    .product-list>ul>li {
+        padding: 19px;
+        margin-top: 95px;
+    }
+
+    .dashboard img {
+        display: none;
+    }
+
+    .product-features-area {
+        height: 990px;
+    }
+
+    /* product comparison */
+    .product-comparison {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+
+    .product-comparison2 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+
+    .product-comparison3 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+
+    .product-comparison4 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+
+    .product-comparison5 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+
+    .product-comparison6 {
+        margin-top: 6%;
+        height: 224px;
+        text-align: center;
+    }
+
+    .coundown-image {
+        padding: 5px 210px;
+    }
+
+    /* business partner area */
+    .side-image {
+        display: none;
+    }
+
+    .business-partner-area {
+        margin-top: 1025px;
+    }
+
+    .business-partner-intro {
+        margin-top: 42%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    /* pricing plan */
+    .pricing-menu>ul>li {
+        padding: 0px;
+        margin-top: 50px;
+    }
+
+    .pricing-menu>ul>li>a {
+        padding: 17px;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    .pricing-list {
+        width: 320px;
+    }
+
+    /* testmunial area */
+    .testimunial-area {
+        display: none;
+    }
+
+    /* Trail Section area */
+    .trail-section-area {
+        margin-top: 1180px;
+    }
+
+    /* newsletter */
+    .newsletter-box {
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .newsletter-from {
+        margin-top: 20px;
+    }
+
+    /* footer logo */
+    .footer-logo {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .footer-logo>a {
+        top: 5px;
+    }
+
+}
